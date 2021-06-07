@@ -1,3 +1,12 @@
 2. Solicitar al usuario que ingrese un valor N y mostrar todos los valores comprendidos entre N y 1, comenzando desde N.
 
-
+Algoritmo N_1
+	i <- 0
+	N <- 0
+	Escribir "Ingrese un número:"
+	Leer N
+	Mientras i < N Hacer
+		i <-  i +1
+		Escribir "Los número son:", i
+	FinMientras
+FinAlgoritmo
